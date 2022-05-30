@@ -1,0 +1,32 @@
+body {
+  background-color: aliceblue;
+}
+.wrapper {
+  width: 300px;
+  text-align: center;
+}
+.changed_btn_color {
+  width: 200px;
+  background-color: yellowgreen;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.color-info {
+  display: flex;
+  align-items: center;
+  margin: 20px 0 10px;
+}
+.colorGrid {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  border-radius: 2px;
+}
+.colorValue {
+  margin-left: 5px;
+  font-weight: bold;
+}
